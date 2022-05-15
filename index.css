@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+body{
+    display: flex;
+    background: linear-gradient(to bottom right, red, yellow);
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    font-size: 100%;
+}
+main {
+    display: flex;
+    padding-top: 30px;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 10px #D2691E;
+}
+section {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: center;
+    height: 550px;
+    width: 500px;
+    margin-bottom: 15px;
+    padding-top: 20px;
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 25px;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 1px 5px 10px gray;
+    background-color: white;
+    height: 80px;
+}
+li:hover {
+    background-color: antiquewhite;
+    cursor: pointer;
+
+}
+img {
+    width: 70px;
+}
+div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: space-around;
+}
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 30px;
+}
+p {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+button {
+    background-color: #D2691E;
+    border: none;
+    height: 40px;
+    width: 150px;
+    color: antiquewhite;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+    border-radius: 20px;
+    
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+    color: #D2691E;
+    box-shadow: 1px 2px 8px gray;
+}
+
+.quantStyle {
+
+    background-color: antiquewhite;
+    height: 40px;
+    width: 150px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 15px;
+    color: #D2691E;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.precoStyle {
+
+    background-color: antiquewhite;
+    height: 40px;
+    width: 150px;
+    font-family: 'Work Sans', sans-serif;
+    color: #D2691E;
+    font-size: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.secSecundariaStyle {
+
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 500px;
+    justify-content: center;
+    align-items: center;
+    gap:10px
+
+}
+
+.divSecundaria1 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+
+
+
